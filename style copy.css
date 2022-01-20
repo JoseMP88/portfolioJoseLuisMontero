@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+.cabecera {
+  width: 100%;
+  height: 68px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  background-color: black;
+}
+
+.logo {
+  
+  height: 64px;
+  width: 64px;
+  margin-left: 426px;
+  margin-top: 0px;
+  background-color: brown;
+}
+.personaInicial {
+  height: 618px;
+  width: 100%;
+  background-image: url(/imagenes/personaInicial.jpg);
+  display: flex;
+}
+
+.container-Redes{
+  background-color: blue;
+  margin-left: 400px;
+  width: 500px;
+
+}
+
+.menu{
+  margin-left: 950px;
+  width: 25%; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: white; 
+  justify-content: space-between 20px;
+  display: inline;
+}
+.menu a{
+  color: #fff;
+  
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  .twitter{
+    display:flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+        
+  }
+  .instagram{
+    display:flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    
+  }
+  .linkdn{
+    display:flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    
+  }
+  .facebook{
+    display:flex;
+    width: 25px;
+    height: 25px;
+    margin-top: -25px;
+    
+  }
+
+  .diseñadorEditor{
+
+    display:flex;
+    width: 800px;
+    margin-top: -430px;
+    margin-left: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    color: black; 
+    
+  }
+
+  .developer{
+
+    display:flex;    
+    margin-top: -78px;
+    width: 800px;
+    margin-left: 1650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    color: black; 
+    
+  }
+  .diseñadorEditorTexto{
+
+    display:flex;
+    width: 800px;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: black; 
+    background-color: red;
+  }
+
+  .developerTexto{
+
+    display:flex;    
+    margin-top: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: black; 
+    
+  }
+  .p{
+    display: flex;
+  }
