@@ -1,0 +1,61 @@
+.juego{
+        width: 100%;
+    height: 100%;
+    display: block;
+}
+.titulo{
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-left: 750px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration:none;
+}
+
+.tablero{
+    
+    display: flex;
+background-color: purple;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 625px;
+    background-image: url(/aventura/imagenes/fondo.png);
+}
+
+.textoHistoria{
+    width: 500px;
+    height: fit-content;
+    background-color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 23px;
+        color: #fff;
+    margin-top: 30%;
+    margin-left: 240px;
+    text-align: justify;
+}
+
+.botones{
+    background-color: salmon;
+    width: 500px;
+    height: fit-content;
+    margin-left: 900px;
+
+}
+#botonSi{
+    width: 150px;
+    height: 75px;
+}
+#botonNo{
+    width: 150px;
+    height: 75px;
+    margin-left: 25%;
+}

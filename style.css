@@ -97,7 +97,6 @@ li {
   font-size: 35px;
   font-style: normal;
   color: black; 
-  background-color: violet;
   margin-left: 250px;
   padding-top: 100px;
 }
@@ -112,7 +111,6 @@ li {
   font-size: 25px;
   font-style: normal;
   color: grey; 
-  background-color: red;
   text-align: center;  
 }
 
@@ -126,7 +124,6 @@ li {
   font-size: 35px;
   font-style: normal;
   color: black; 
-  background-color: yellow;
   
 }
 .developerTexto{
@@ -139,7 +136,6 @@ li {
   font-size: 25px;
   font-style: normal;
   color: grey; 
-  background-color: red;
   text-align: center; 
 }
 
@@ -149,6 +145,20 @@ li {
   height: 1px;
   margin-left: 450px;
   margin-top: 50px;
+  display: flex;
+}
+.barraCent{
+  background-color: black;
+  width: 100%;
+  height: 1px;
+  margin-top: 50px;
+  display: flex;
+}
+.barraCent2{
+  background-color: black;
+  width: 100%;
+  height: 1px;
+  margin-top: 280px;
   display: flex;
 }
 .barraDer{
@@ -165,6 +175,7 @@ li {
   height: fit-content;
   display: flex;
 }
+
 .ultimosProyectos{
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -184,7 +195,6 @@ li {
 }
 
 .video1{
-  background-color: blueviolet;
   float: left;
   display: flex;
   width: 271px;
@@ -195,7 +205,6 @@ li {
   margin-left: 530px;
 }
 .video2{
-  background-color: blueviolet;
   float: left;
   display: flex;
   width: 271px;
@@ -207,7 +216,6 @@ li {
 
 }
 .video3{
-  background-color: blueviolet;
   display: flex;
   width: 271px;
   height: 181px;
@@ -215,11 +223,12 @@ li {
   border-radius: 13px;
   margin-top: 50px;
   margin-left: 150px;
+  float: left;
 
 }
 
 .textovideo1{
-display:flex;
+display:block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -245,7 +254,7 @@ margin-left: 530px;
   
   }
   .textovideo3{
-    display:flex;
+    display:block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -253,10 +262,9 @@ margin-left: 530px;
     line-height: 23px;
     letter-spacing: -0.333333px;
     background-color: blue;
-    float: inline-end;
     width: fit-content;
-    margin-left: 530px;
-    padding-left: 150px;
+    margin-left: 165px;
+    float: left;
 
     
     }
@@ -271,7 +279,9 @@ margin-left: 530px;
       background-color: brown;
       float: left;
       margin-left: 530px;
-      
+      color: grey;
+      margin-top: -15px;
+
       }
       .textovideo2b{
         display:flex;
@@ -284,7 +294,9 @@ margin-left: 530px;
         background-color: purple;
         float: left;
         margin-left: 139px;
-        
+        color: grey;
+        margin-top: -15px;
+
         }
         .textovideo3b{
           display:flex;
@@ -295,10 +307,11 @@ margin-left: 530px;
           line-height: 23px;
           letter-spacing: -0.333333px;
           background-color: blue;
-          float: inline-end;
+          float: left;
           width: fit-content;
-          margin-left: 530px;
-          padding-left: 150px;
+          margin-left: 139px;
+          color: grey;
+          margin-top: -15px;
       
           
           }
@@ -334,4 +347,80 @@ margin-left: 530px;
         color: #fff;
         text-decoration:none;
       
+    }
+
+    .video1SobreMi{
+      float: left;
+      display: flex;
+      width: 271px;
+      height: 181px;
+      background-image: url(/imagenes/crossfit.png);
+      border-radius: 13px;
+      margin-top: 50px;
+      margin-left: 150px;
+    }
+    .video4{
+      display: flex;
+      width: 271px;
+      height: 181px;
+      background-image: url(/imagenes/windsurf.png);
+      border-radius: 13px;
+      margin-top: 50px;
+      margin-left: 150px;
+      float: left;
+    
+    }
+    .video5{
+      display: flex;
+      width: 271px;
+      height: 181px;
+      background-image: url(/imagenes/windsurf.png);
+      border-radius: 13px;
+      margin-top: 50px;
+      margin-left: 150px;
+      float: left;
+    
+    }
+    .skills{
+      background-color: hotpink;
+      width: 100%;
+      height: 1000px;
+      margin-top: 50px;
+      float: left;
+    }
+    .diseñoSkill{
+      background-color: grey;
+      display: flex;
+      width: 450px;
+      height: 150px;
+      float: left;
+      margin-left: 25%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration:none;
+    }
+    .graficoSkill{
+      background-color: red;
+      width: fit-content;
+      height: fit-content;
+      margin-left: 35%;
+      display: flex;
+    }
+    .developerSkill{
+      background-color: blue  ;
+      display: flex;
+      width: 450px;
+      height: 150px;
+      float: left;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+        text-decoration:none;
     }
