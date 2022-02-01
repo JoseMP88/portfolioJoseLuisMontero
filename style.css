@@ -1,207 +1,188 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
+a.posicioLogo{
+  width: 20%;
+
+}
+.logo {
+  height: 64px;
+  float: left;
+  margin-left: 50%;
+}
 .cabecera {
   width: 100%;
   height: 68px;
-  left: 0px;
-  top: 0px;
-  display: inline-flex;
+  display: flex;
   background-color: black;
 }
 
-.logo {
-  
-  height: 64px;
-  width: 64px;
-  margin-left: 426px;
-  margin-top: 0px;
-}
-
-.menu{
-  margin-left: 500px;
+.menu {
   margin-top: 20px;
-  width: auto; 
-  height: auto;
+  width: 60%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-style: normal;
-  color: white; 
-  justify-content: space-around;
-  }
-.menu a{
+  text-align: center;
+}
+.menu a {
   color: #fff;
   padding: 0 1em;
   text-decoration: none;
-  
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
 }
-  
+
 li {
-    display: inline;
+  display: inline;
 }
 
-.container-Redes{
-  margin-left: 400px;
-  height: 25px;
+.container-Redes {
   display: flex;
-  margin-top: 20px;  
+  margin-top: 20px;
   justify-content: space-around;
-  gap: 15px;
+  width: 10%;
+  gap: 10px;
+}
+.twitter {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+.instagram {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+.linkdn {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+.facebook {
+  display: flex;
+  width: 25px;
+  height: 25px;
 }
 
-.twitter{
-  display:flex;
-  width: 25px;
-  height: 25px;
-      
-}
-.instagram{
-  display:flex;
-  width: 25px;
-  height: 25px;
-  
-}
-.linkdn{
-  display:flex;
-  width: 25px;
-  height: 25px;
-  
-}
-.facebook{
-  display:flex;
-  width: 25px;
-  height: 25px;
-  
-}
- 
 .personaInicial {
   height: 618px;
   width: 100%;
   background-image: url(/imagenes/personaInicial.jpg);
 }
 
-.diseñadorEditor{
-
-  display:flex;
-  
-  float:none;
-  width: fit-content;
+.diseñadorEditor {
+  display: flex;
+  float: left;
+  width: 50%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
   font-style: normal;
-  color: black; 
-  margin-left: 250px;
+  color: black;
   padding-top: 100px;
+  background-color: blue;
 }
 
-.diseñadorEditorTexto{
+.diseñadorEditorTexto {
+  display: flex;
+  float: left; 
+  width: 40%;
+  /* margin-left: 300px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  /* font-style: normal; */
+  color: grey;
+  text-align: center;
+}
 
-  display:flex;
-  float: left;
-  width: 500px;
-  margin-left: 300px;
+.developer {
+    display: flex;
+    float: left;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    color: black;
+    padding-top: 100px;
+    background-color: violet;
+}
+.developerTexto {
+  display: flex;
+  float: right;
+  width: 40%;
+  /* margin-left: 710px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   font-style: normal;
-  color: grey; 
-  text-align: center;  
+  color: grey;
+  text-align: center;
 }
 
-.developer{
-
-  display:flex;    
-  width: fit-content;
-  height: fit-content;
-  margin-left: 650px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
-  font-style: normal;
-  color: black; 
-  
-}
-.developerTexto{
-
-  display:flex;
-  float: left;
-  width: 500px;
-  margin-left: 710px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  font-style: normal;
-  color: grey; 
-  text-align: center; 
-}
-
-.barraIzq{
+.barraIzq {
   background-color: black;
-  width: 450px;
+  width: 40%;
   height: 1px;
-  margin-left: 450px;
+  /* margin-left: 450px; */
   margin-top: 50px;
   display: flex;
 }
-.barraCent{
+.barraCent {
   background-color: black;
   width: 100%;
   height: 1px;
   margin-top: 50px;
   display: flex;
 }
-.barraCent2{
+.barraCent2 {
   background-color: black;
   width: 100%;
   height: 1px;
   margin-top: 280px;
   display: flex;
 }
-.barraCent3{
+.barraCent3 {
   background-color: black;
   width: 100%;
   height: 1px;
   margin-top: 480px;
   display: flex;
 }
-.barraDer{
+.barraDer {
   background-color: black;
-  width: 450px;
+  width: 40%;
   height: 1px;
   margin-left: 15px;
   margin-top: 50px;
   display: flex;
 }
-.proyectos{
+.proyectos {
   background-color: white;
   width: 100%;
   height: fit-content;
   display: flex;
 }
 
-.ultimosProyectos{
-  display: flex;
+.ultimosProyectos {
+  /* display: flex; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
   letter-spacing: -0.333333px;
   color: #000000;
-  width: fit-content;
-  height: fit-content;
+  width: 30%;
+  /* height: fit-content; */
   background-color: white;
   margin-top: 20px;
-  margin-left: 15px;
-
+  /* margin-left: 15px; */
 }
 
-.video1{
+.video1 {
   float: left;
   display: flex;
   width: 271px;
@@ -211,7 +192,7 @@ li {
   margin-top: 50px;
   margin-left: 530px;
 }
-.video2{
+.video2 {
   float: left;
   display: flex;
   width: 271px;
@@ -220,9 +201,8 @@ li {
   border-radius: 13px;
   margin-top: 50px;
   margin-left: 150px;
-
 }
-.video3{
+.video3 {
   display: flex;
   width: 271px;
   height: 181px;
@@ -231,23 +211,21 @@ li {
   margin-top: 50px;
   margin-left: 150px;
   float: left;
-
 }
 
-.textovideo1{
-display:block;
+.textovideo1 {
+  display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: -0.333333px;
-float: left;
-margin-left: 530px;
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.333333px;
+  float: left;
+  margin-left: 530px;
 }
-.textovideo2{
-  display:flex;
+.textovideo2 {
+  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -256,289 +234,280 @@ margin-left: 530px;
   letter-spacing: -0.333333px;
   float: left;
   margin-left: 115px;
-  
+}
+.textovideo3 {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.333333px;
+  width: fit-content;
+  margin-left: 165px;
+  float: left;
+}
+.textovideo1b {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.333333px;
+  float: left;
+  margin-left: 530px;
+  color: grey;
+  margin-top: -15px;
+}
+.textovideo2b {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.333333px;
+  float: left;
+  margin-left: 139px;
+  color: grey;
+  margin-top: -15px;
+}
+.textovideo3b {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.333333px;
+  float: left;
+  width: fit-content;
+  margin-left: 139px;
+  color: grey;
+  margin-top: -15px;
+}
+
+.menuInferior {
+  width: 100%;
+  height: 68px;
+  display: inline-flex;
+  background-color: black;
+  position: fixed;
+  bottom: 0%;
+}
+
+.nombre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 250px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#nombre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.video1SobreMi {
+  float: left;
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/crossfit.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.video4 {
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/windsurf.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+  float: left;
+}
+.video5 {
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/windsurf.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+  float: left;
+}
+.skills {
+  background-color: hotpink;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  float: left;
+}
+.diseñoSkill {
+  background-color: grey;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  float: left;
+  margin-left: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 75px;
+}
+.graficoSkill {
+  background-color: red;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 35%;
+  display: flex;
+  margin-top: 0px;
+}
+.developerSkill {
+  background-color: blue;
+  display: flex;
+  width: 450px;
+  height: 150px;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+}
+.blanco {
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
+}
+
+.formulari {
+  height: fit-content;
+  width: 550px;
+  display: flex;
+  margin: auto;
+  background-color: chocolate;
+  margin-top: 25px;
+}
+#formulariContacte {
+  margin: auto;
+  text-align: center;
+}
+#email {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.fname {
+  margin-left: 15px;
+}
+#comentari {
+  width: 525px;
+  resize: none;
+}
+#contact-submit {
+  background-color: green;
+}
+.menuInferior {
+  display: flex;
+  object-position: bottom;
+}
+
+.contingut {
+  padding-bottom: 190px;
+  height: max-content;
+}
+
+.contenido {
+  width: 100%;
+  display: block;
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 5%;
+  align-content: center;
+}
+
+.titolVideoReel {
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+
+.videoRealizado1 {
+  float: left;
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/crossfit.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 18%;
+}
+
+.videoRealizado2 {
+  float: left;
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/yogaCenter.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.videoRealizado3 {
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/windsurf.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+  float: left;
+}
+.videoRealizado4 {
+  display: flex;
+  width: 271px;
+  height: 181px;
+  background-image: url(/imagenes/windsurf.png);
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-left: 150px;
+  float: left;
+}
+
+@media screen and (max-width: 800px) {
+  .cabecera {
+    width: 100%;
+    background-color: blue;
   }
-  .textovideo3{
-    display:block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: -0.333333px;
-    width: fit-content;
-    margin-left: 165px;
-    float: left;
-
+  .developer {
+    display: flex;
     
-    }
-    .textovideo1b{
-      display:flex;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 23px;
-      letter-spacing: -0.333333px;
-      float: left;
-      margin-left: 530px;
-      color: grey;
-      margin-top: -15px;
-
-      }
-      .textovideo2b{
-        display:flex;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        letter-spacing: -0.333333px;
-        float: left;
-        margin-left: 139px;
-        color: grey;
-        margin-top: -15px;
-
-        }
-        .textovideo3b{
-          display:flex;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 20px;
-          line-height: 23px;
-          letter-spacing: -0.333333px;
-          float: left;
-          width: fit-content;
-          margin-left: 139px;
-          color: grey;
-          margin-top: -15px;
-      
-          
-          }
-
-    .menuInferior {
-      width: 100%;
-      height: 68px;
-      display: inline-flex;
-      background-color: black;
-      position: fixed;
-      bottom: 0%;
-    }
-    
-   
-    .nombre{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    margin-left: 250px;
-    color: #fff;
-    text-decoration:none;
-  
-    }
-
-    #nombre{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        color: #fff;
-        text-decoration:none;
-      
-    }
-
-    .video1SobreMi{
-      float: left;
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/crossfit.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-    }
-    .video4{
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/windsurf.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-      float: left;
-    
-    }
-    .video5{
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/windsurf.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-      float: left;
-    
-    }
-    .skills{
-      background-color: hotpink;
-      width: 100%;
-      height: 500px;
-      margin-top: 50px;
-      float: left;
-    }
-    .diseñoSkill{
-      background-color: grey;
-      display: flex;
-      width: 450px;
-      height: 150px;
-      float: left;
-      margin-left: 30%;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2px;
-        line-height: 23px;
-        color: #fff;
-        text-decoration:none;
-        margin-top: 75px;
-    }
-    .graficoSkill{
-      background-color: red;
-      width: fit-content;
-      height: fit-content;
-      margin-left: 35%;
-      display: flex;
-      margin-top: 0px;
-    }
-    .developerSkill{
-      background-color: blue  ;
-      display: flex;
-      width: 450px;
-      height: 150px;
-      float: left;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        color: #fff;
-        text-decoration:none;
-    }
-    .blanco{
-      background-color: aqua;
-      width: 100%;
-      height: 500px;
-    }
-    
-
-    .formulari {
-      height: fit-content;
-      width: 550px;
-      display: flex;
-      margin: auto;
-      background-color: chocolate;
-      margin-top: 25px;
-      
-    }
-    #formulariContacte {
-    margin: auto;
-    text-align: center;  
-
-    }
-    #email{
-      margin-left: 10px;
-      padding-left: 10px;
-    
-    }
-    .fname{
-      
-      margin-left: 15px;
-    }
-    #comentari{
-      width: 525px;
-      resize: none;
-
-    }
-    #contact-submit{
-      background-color: green;
-    }
-    .menuInferior{
-      display: flex;
-      object-position: bottom;
-    }
-
-    .contingut{
-      padding-bottom: 190px;
-      height: max-content;
-    }
-
-    .contenido{
-      width: 100%;
-      display: block;
-      height: 500px;
-      margin-left: 30%;
-      margin-top: 5%;
-      align-content: center;
-    }
-
-    .titolVideoReel{
-      font-size: 50px;
-      display: flex;
-      text-align: center;
-      width: fit-content;
-      margin: auto;
-      margin-top: 100px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 23px;
-        text-decoration:none;
-    }
-
-    .videoRealizado1{
-      float: left;
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/crossfit.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 18%;
-    }
-    
-    .videoRealizado2{
-      float: left;
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/yogaCenter.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-    
-    }
-    .videoRealizado3{
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/windsurf.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-      float: left;
-    
-    }
-    .videoRealizado4{
-      display: flex;
-      width: 271px;
-      height: 181px;
-      background-image: url(/imagenes/windsurf.png);
-      border-radius: 13px;
-      margin-top: 50px;
-      margin-left: 150px;
-      float: left;
-    
-    }
+  }
+}
