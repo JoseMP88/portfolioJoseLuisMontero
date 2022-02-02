@@ -69,63 +69,68 @@ li {
 }
 
 .personaInicial {
-  height: 618px;
+  height: 530px;
   width: 100%;
-  background-image: url(/imagenes/personaInicial.jpg);
+  /* background-color: aquamarine; */
 }
 
+#imagenPrincipal {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+}
 .diseñadorEditor {
   display: flex;
   float: left;
   width: 50%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
+  font-size: 185%;
   font-style: normal;
   color: black;
-  padding-top: 100px;
-  background-color: blue;
+  margin: 5% 0 0 0;
+  position: relative;
+
 }
 
 .diseñadorEditorTexto {
   display: flex;
   float: left; 
   width: 40%;
-  /* margin-left: 300px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
-  /* font-style: normal; */
   color: grey;
   text-align: center;
+  position: relative;
 }
 
 .developer {
-    display: flex;
-    float: left;
-    width: 50%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
-    font-style: normal;
-    color: black;
-    padding-top: 100px;
-    background-color: violet;
+  display: flex;
+  float: left;
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  font-style: normal;
+  color: black;
+  margin: 5% 0 0 0;
+  position: relative;
 }
 .developerTexto {
   display: flex;
   float: right;
   width: 40%;
-  /* margin-left: 710px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   font-style: normal;
   color: grey;
   text-align: center;
+  position: relative;
 }
 
 .barraIzq {
   background-color: black;
   width: 40%;
   height: 1px;
-  /* margin-left: 450px; */
   margin-top: 50px;
   display: flex;
 }
@@ -166,9 +171,7 @@ li {
 }
 
 .ultimosProyectos {
-  /* display: flex; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* font-style: normal; */
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
@@ -176,10 +179,8 @@ li {
   letter-spacing: -0.333333px;
   color: #000000;
   width: 30%;
-  /* height: fit-content; */
   background-color: white;
   margin-top: 20px;
-  /* margin-left: 15px; */
 }
 
 .video1 {
@@ -189,8 +190,7 @@ li {
   height: 181px;
   background-image: url(/imagenes/crossfit.png);
   border-radius: 13px;
-  margin-top: 50px;
-  margin-left: 530px;
+  margin: 5% auto 5% auto;
 }
 .video2 {
   float: left;
@@ -199,8 +199,8 @@ li {
   height: 181px;
   background-image: url(/imagenes/yogaCenter.png);
   border-radius: 13px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin: 5% auto 5% auto;
+
 }
 .video3 {
   display: flex;
@@ -208,84 +208,70 @@ li {
   height: 181px;
   background-image: url(/imagenes/windsurf.png);
   border-radius: 13px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin: 5% auto 5% auto;
   float: left;
 }
 
 .textovideo1 {
-  display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  width: 33%;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.333333px;
   float: left;
-  margin-left: 530px;
+  text-align: center;
 }
 .textovideo2 {
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-  letter-spacing: -0.333333px;
-  float: left;
-  margin-left: 115px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 33%;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.333333px;
+    float: left;
+    text-align: center;
+    
 }
 .textovideo3 {
-  display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  width: 33%;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.333333px;
-  width: fit-content;
-  margin-left: 165px;
   float: left;
+  text-align: center;
 }
 .textovideo1b {
-  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  width: 33%;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.333333px;
   float: left;
-  margin-left: 530px;
-  color: grey;
-  margin-top: -15px;
+  text-align: center;
+  color:grey;
+  margin-top: -1%;
 }
 .textovideo2b {
-  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  width: 33%;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.333333px;
   float: left;
-  margin-left: 139px;
+  text-align: center;
   color: grey;
-  margin-top: -15px;
+  margin-top: -1%;
 }
 .textovideo3b {
-  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  width: 33%;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: -0.333333px;
   float: left;
-  width: fit-content;
-  margin-left: 139px;
+  text-align: center;
   color: grey;
-  margin-top: -15px;
+  margin-top: -1%;
 }
 
 .menuInferior {
@@ -298,13 +284,9 @@ li {
 }
 
 .nombre {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
-  margin-left: 250px;
-  color: #fff;
+  width: 20%;
+  text-align: center;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -500,6 +482,30 @@ li {
   margin-left: 150px;
   float: left;
 }
+.clear {
+  clear: both;
+}
+
+.miniaturas{
+  display:flex;
+  background-color: aqua;
+}
+.miniatura1{
+  display:flex;
+  background-color: blue;
+  width: 33%;
+}
+.miniatura2{
+  display:flex;
+  background-color: green;
+  width: 33%;
+}
+.miniatura3{
+  display:flex;
+  background-color: grey;
+  width: 33%;
+}
+
 
 @media screen and (max-width: 800px) {
   .cabecera {
@@ -509,5 +515,36 @@ li {
   .developer {
     display: flex;
     
+  }
+  .video1 {
+    float: left;
+    display: flex;
+    width: 271px;
+    height: 181px;
+    background-image: url(/imagenes/crossfit.png);
+    border-radius: 13px;
+    /* margin-top: 5%; */
+    /* margin-left: 530px; */
+    margin: 5% 0 0 3.5%;
+  }
+  .video2 {
+    float: left;
+    display: flex;
+    width: 271px;
+    height: 181px;
+    background-image: url(/imagenes/yogaCenter.png);
+    border-radius: 13px;
+    /* margin-top: 50px; */
+    margin: 5% 0 0 5%;
+  }
+  .video3 {
+    display: flex;
+    width: 271px;
+    height: 181px;
+    background-image: url(/imagenes/windsurf.png);
+    border-radius: 13px;
+    /* margin-top: 50px; */
+    margin: 5% 0 0 5%;
+    float: left;
   }
 }
